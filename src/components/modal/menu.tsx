@@ -11,7 +11,7 @@ export default function MenuModal({setIsOpen}:ModalProps) {
       <div className="w-3/7 bg-[#f4f1ed] p-6 flex flex-col justify-between">
         <div>
           <button className="text-2xl mb-6" onClick={()=>setIsOpen(false)}>×</button>
-          <h4 className="uppercase text-sm mb-2 text-gray-500">Menu's</h4>
+          <h4 className="uppercase text-sm mb-2 text-gray-500">{"Menu's"}</h4>
           <ul className="space-y-4 text-2xl font-serif">
             <li className="hover:underline">Destinations</li>
             <li>Journeys</li>

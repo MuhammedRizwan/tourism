@@ -22,7 +22,7 @@ export default function TravelSection() {
       <div className="text-center max-w-3xl mx-auto mb-6">
         <h2 className="text-2xl md:text-4xl font-serif text-gray-900 mb-3">
           Tourists Travel Bureau <br />
-          <span className="font-light">Journeys' World</span>
+          <span className="font-light">{"Journey's World"}</span>
         </h2>
         <p className="text-sm md:text-base text-gray-600">
           Tourists Travel Bureau is dedicated to providing spectacular wholesale services
