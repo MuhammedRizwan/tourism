@@ -1,8 +1,8 @@
 export default function WhyBookSection() {
 
     return (
-        <section className="bg-[#f8f1e6] py-16 px-4 md:px-6 font-sans flex">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
+        <section className="bg-[#f8f1e6] py-16 px-4 md:px-6 font-sans">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 w-full">
                 <div className="text-center py-6 rounded-lg">
                     <h2 className="text-2xl md:text-4xl font-sans text-gray-900 mb-10">Why Book with us?</h2>
                 </div>
@@ -26,7 +26,7 @@ export default function WhyBookSection() {
                     <h3 className="text-xl font-serif text-gray-800 my-3 mx-6">Small Group Journeys</h3>
                     <p className="text-sm text-gray-600 leading-relaxed mx-6">Intimate, curated travel experiences designed for those who seek connection, discovery, and comfort. Explore the world in the company of like-minded travelers.</p>
                 </div>
-                <div className="rounded-sm bg-white col-span-2">
+                <div className="rounded-sm bg-white md:col-span-2">
 
                     <img
                         src='/images/zeebra.avif'
@@ -42,3 +42,5 @@ export default function WhyBookSection() {
         </section>
     );
 }
+
+
